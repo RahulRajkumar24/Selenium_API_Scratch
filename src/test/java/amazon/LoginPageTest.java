@@ -1,3 +1,6 @@
+package amazon;
+
+import amazon.Common_Base_Test;
 import amazon.LoginPage;
 import org.testng.annotations.Test;
 
@@ -12,3 +15,4 @@ loginPage.login("rahulrajkumar.b@gmail.com","Saibaba@24");
 
 }
 }
+

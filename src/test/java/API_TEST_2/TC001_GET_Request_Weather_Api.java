@@ -7,7 +7,7 @@ import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TC001_GET_Request {
+public class TC001_GET_Request_Weather_Api {
 
     @Test
 

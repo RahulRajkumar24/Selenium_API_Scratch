@@ -1,3 +1,5 @@
+package amazon;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -21,12 +23,15 @@ public class LoginPage {
     driver.findElement(loginTextbox).clear();
     driver.findElement(loginTextbox).sendKeys(Username);
     driver.findElement(loginButton).click();
-    ((JavascriptExecutor)driver).executeScript("return doucment.readystate").equals("complete");
+  //  ((JavascriptExecutor)driver).executeScript("return doucment.readystate").equals("complete");
     driver.findElement(passwordTextbox).clear();
     driver.findElement(passwordTextbox).sendKeys(Password);
     driver.findElement(passwordTextbox).click();
-       ((JavascriptExecutor)driver).executeScript("return doucment.readystate").equals("complete");
+    //   ((JavascriptExecutor)driver).executeScript("return doucment.readystate").equals("complete");
    }
 
 }
+
+
+
 

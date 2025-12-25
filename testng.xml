@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="G:/Program_WorkSpaces/Selenium_Scratch_Intellij">
+        <classes>
+            <class name="API_TEST_2.TC001_GET_Request_Weather_Api">
+                <methods>
+                    <include name="getweatherdetails"/>
+                </methods>
+            </class>
+            <class name="API_TEST_2.TC002_POST_Request_Register_Customer_Api">
+                <methods>
+                    <include name="RegistrationSuccessfull"/>
+                </methods>
+            </class>
+            <class name="API_TEST_2.TC003_GET_Google_Map_Api">
+                <methods>
+                    <include name="googleMapTest"/>
+                </methods>
+            </class>
+            <class name="API_Test.Post_api">
+                <methods>
+                    <include name="test_"/>
+                    <include name="test_2_put"/>
+                </methods>
+            </class>
+            <class name="API_Test.Rest_1_test">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/ >
+                </methods>
+            </class>
+            <class name="amazon.LoginPageTest">
+                <methods>
+                    <include name="loginpagetest"/>
+                </methods>
+            </class>
+            <class name="fb.loginpagetest">
+                <methods>
+                    <include name="loginpagetest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

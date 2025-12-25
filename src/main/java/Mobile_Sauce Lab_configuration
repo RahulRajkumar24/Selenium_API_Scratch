@@ -1,0 +1,14 @@
+MutableCapabilities capabilities = new MutableCapabilities();
+
+capabilities.setCapability("browserName", "chrome");
+capabilities.setCapability("platformName", "android");
+// W3C Protocol is mandatory for Appium 2
+capabilities.setCapability("appium:platformVersion", "12");
+capabilities.setCapability("appium:deviceName", "Google Pixel 6 Pro GoogleAPI Emulator");
+// Mandatory for Appium 2
+capabilities.setCapability("appium:automationName", "uiautomator2");
+
+    HashMap<String, Object> sauceOptions = new HashMap<String, Object>();
+// appiumVersion is mandatory to use Appium 2
+sauceOptions.put("appiumVersion", "2.0.0-beta56");
+capabilities.setCapability("sauce:options", sauceOptions);

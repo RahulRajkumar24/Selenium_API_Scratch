@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a58ac69-ae3b-4350-a175-ac9c7af2c862" name="Changes" comment="" />
+    <list default="true" id="9a58ac69-ae3b-4350-a175-ac9c7af2c862" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Upload_File_Pr/Common_Base_Test_upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Upload_File_Pr/Common_Base_Test_upload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Upload_File_Pr/FileUploadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Upload_File_Pr/FileUploadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Upload_File_Pr/Upload_File_Straight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Upload_File_Pr/Upload_File_Straight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/Common_Base_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/Common_Base_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/LoginPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -17,6 +40,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2SKijqwJHCqZhQItn7BeEfttv4e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,12 +50,177 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/Java11&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Program_WorkSpaces\Selenium_Scratch_Intellij\src\main\java\API_RestAssured" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="amazon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.loginpagetest.loginpagetest">
+    <configuration name="API_Scratch_Intellij" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Scratch_Intellij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.loginpagetest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Scratch_Intellij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="amazon" />
+      <option name="MAIN_CLASS_NAME" value="amazon.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginpagetest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rest_1_test.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Scratch_Intellij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_Test" />
+      <option name="MAIN_CLASS_NAME" value="API_Test.Rest_1_test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001_GET_Request_Weather_Api" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Scratch_Intellij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API_TEST_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API_TEST_2" />
+      <option name="MAIN_CLASS_NAME" value="API_TEST_2.TC001_GET_Request_Weather_Api" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="API" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginpagetest.loginpagetest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Scratch_Intellij" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fb" />
+      <option name="MAIN_CLASS_NAME" value="fb.loginpagetest" />
+      <option name="METHOD_NAME" value="loginpagetest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.API_Scratch_Intellij" />
+      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.Rest_1_test.test2" />
+      <item itemvalue="TestNG.TC001_GET_Request_Weather_Api" />
+      <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.LoginPageTest.loginpagetest" />
+      <item itemvalue="TestNG.loginpagetest.loginpagetest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.loginpagetest.loginpagetest" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.TC001_GET_Request_Weather_Api" />
+        <item itemvalue="TestNG.Rest_1_test.test2" />
+        <item itemvalue="TestNG.LoginPageTest.loginpagetest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,5 +231,31 @@
       <updated>1688901812567</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/API_TEST_2/TC002_POST_Request_Register_Customer_Api.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,7 +1,12 @@
+package amazon;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -18,7 +23,17 @@ String baseUrl ="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&open
     driver= new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     driver.manage().window().maximize();
-    ((JavascriptExecutor) driver).executeScript("return doucment.readystate").equals("complete");
+    driver.manage().deleteAllCookies();
+    Dimension d=new Dimension(200,300);
+    driver.manage().window().setSize(d);
+    driver.switchTo().frame(1);
+    Actions actions = new Actions(driver);
+    actions.click();
+    actions.contextClick();
+    actions.doubleClick();
+
+
+    //((JavascriptExecutor) driver).executeScript("return doucment.readystate").equals("complete");
     driver.get(baseUrl);
 
 }
