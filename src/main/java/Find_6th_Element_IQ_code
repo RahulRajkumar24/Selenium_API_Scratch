@@ -7,3 +7,18 @@ if (elements.size() >= 6) {
 } else {
     System.out.println("Less than 6 elements found!");
 }
+
+
+
+
+###  with Real Locator  ###
+
+List<WebElement> menuItems = driver.findElements(By.cssSelector(".menu-item"));
+
+if (menuItems.size() >= 6) {
+    WebElement sixthItem = menuItems.get(5);
+    System.out.println("6th item text: " + sixthItem.getText());
+    sixthItem.click();
+} else {
+    System.out.println("Only " + menuItems.size() + " items found.");
+}
