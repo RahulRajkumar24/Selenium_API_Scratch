@@ -1,0 +1,9 @@
+List<WebElement> elements = driver.findElements(By.xpath("//tagName")); // use your locator
+
+// Always verify list size before accessing index
+if (elements.size() >= 6) {
+    WebElement sixthElement = elements.get(5);  // index starts from 0
+    sixthElement.click();  // OR any action
+} else {
+    System.out.println("Less than 6 elements found!");
+}
