@@ -2,7 +2,7 @@ package API_Test;
 import static io.restassured.RestAssured.*;
 
 import io.restassured.response.Response;
-import netscape.javascript.JSObject;
+//import netscape.javascript.JSObject;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
